@@ -1,0 +1,8 @@
+.cta {
+  /* CTA Heading */
+  font-family: var(--secondaryFont);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 84px;
+  line-height: 100%;
+}

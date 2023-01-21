@@ -14,3 +14,14 @@
 @import url('../assets/fonts/Satoshi/WEB/css/satoshi.css');
 @import url('../assets/fonts/Bai_Jamjuree/css/bai-jamjuree.css');
 @import url('../assets/fonts/Inter/css/Inter.css');
+
+:root {
+  --primaryFont: 'Inter';
+  --secondaryFont: 'Bai Jamjuree';
+
+}
+
+/*Global css*/
+body {
+  background: var(--blackPrimary);
+}

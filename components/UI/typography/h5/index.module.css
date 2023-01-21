@@ -1,0 +1,8 @@
+.h5 {
+  /* Heading 5 */
+  font-family: var(--secondaryFont);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 125%;
+}
