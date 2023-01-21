@@ -40,6 +40,9 @@ const Header = () => {
             </Link>
           </li>
         </ul>
+        <Link href={""} className={styles["btn"]}>
+          Let’s talk
+        </Link>
       </nav>
     </Container>
   );

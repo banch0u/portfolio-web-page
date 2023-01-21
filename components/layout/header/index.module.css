@@ -2,6 +2,7 @@
   height: 80px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .navigation>ul>li>.logo {
@@ -16,4 +17,20 @@
   display: flex;
   align-items: center;
   gap: 32px;
+}
+
+.navigation .btn {
+  font-family: var(--primaryFont);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: var(--blackPrimary);
+  padding: 12px 24px;
+  background: var(--whitePrimary);
+  border-radius: 50px;
 }
