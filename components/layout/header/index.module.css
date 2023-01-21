@@ -8,6 +8,10 @@
   margin-right: 32px;
 }
 
+.navigation>ul>li>a {
+  text-decoration: none;
+}
+
 .navigation>ul {
   display: flex;
   align-items: center;
