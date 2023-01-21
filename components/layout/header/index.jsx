@@ -1,4 +1,5 @@
 import Container from "@/components/UI/container";
+import P16 from "@/components/UI/typography/p16";
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "../../../assets/images/Xfolio.svg";
@@ -14,19 +15,29 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <Link href={""}>Home</Link>
+            <Link href={""}>
+              <P16 color={"--whiteSecondary"}>Home</P16>
+            </Link>
           </li>
           <li>
-            <Link href={""}>Home</Link>
+            <Link href={""}>
+              <P16 color={"--whiteSecondary"}>Services</P16>
+            </Link>
           </li>
           <li>
-            <Link href={""}>Home</Link>
+            <Link href={""}>
+              <P16 color={"--whiteSecondary"}>Projects</P16>
+            </Link>
           </li>
           <li>
-            <Link href={""}>Home</Link>
+            <Link href={""}>
+              <P16 color={"--whiteSecondary"}>About</P16>
+            </Link>
           </li>
           <li>
-            <Link href={""}>Home</Link>
+            <Link href={""}>
+              <P16 color={"--whiteSecondary"}>Blog</P16>
+            </Link>
           </li>
         </ul>
       </nav>
